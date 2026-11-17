@@ -1,0 +1,32 @@
+# ---- GTA2 game files: never commit (freeware, but not freely redistributable) ----
+# the installer and anything unpacked from it
+game-data/
+# the browser profile, which caches the unpacked game files
+.chrome-profile/
+# screenshots of the game and the road grid extracted from the map file
+frames/
+# safety net: GTA2 file types, wherever they end up
+*.exe
+*.gmp
+*.sty
+*.scr
+*.gxt
+*.sdt
+*.raw
+*.mmp
+*.seq
+*.gci
+*.bik
+*.part
+
+# ---- internal, not part of the open-source project ----
+CLAUDE.md
+SCRIPT.md
+scripts/readme_screenshots.py
+
+# ---- local runtime files ----
+.bridge.log
+.ollama.log
+.ollama.pid
+__pycache__/
+.DS_Store
